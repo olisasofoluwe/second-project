@@ -1,0 +1,20 @@
+body {
+    background-color: blueviolet;
+
+}
+header {
+    background-color: forestgreen;
+    color: darkorange;
+}
+main {
+    background-color: aliceblue;
+    color: black;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+section {
+    background-color: darkgrey;
+    color: blue;
+}

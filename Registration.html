@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATON FORM</title>
+</head>
+<body>
+    <h1> BANK REGISTRATION FORM</h1>
+    <form action="/submit" method="get">
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <label for="First Name">First Name:</label>
+        <input type="text" id="First Name" name="First Name" placeholder="HEPHZIBAH"> <br><br>
+        <label for="Last Name"> Last Name:</label>
+        <input type="text" id="Last Name" name="Last Name" placeholder="JOSEPH"> <br><br>
+        <label for="email">email:</label>
+        <input type="text" id="email" name="email" placeholder="example@yahoo"> <br><br>
+        <label for="Phone">Phone:</label>
+        <input type="text" id="tel" name="Phone" placeholder="234 0908 0706"> <br><br>
+        <label for="Picture">Upload Picture:</label>
+        <input type="file" id="Picture" name="Picture"> <br><br>
+        <label for="Color">Choose Color:</label>
+        <input type="Color" id="Color" name="Color">
+    </fieldset>
+    <fieldset>
+        <legend>ACCOUNT INFORMATION</legend>
+        <label for="Username">Username:</label>
+        <input type="text" id="Usename" name="Username" placeholder="a.k.a"> <br><br>
+        <label for="Password">Password</label>
+        <input type="text" id="Password" name="Password" placeholder="************"> <br><br>
+        <label for="Savings">Savings Account:</label>
+        <input type="radio" id="Savings Account" name="Bank ACCOUNT" placeholder="304059****">
+        <label for="Current Account">Current Account:</label>
+        <input type="radio" id="Current Account" name="Bank ACCOUNT" placeholder="304059****">
+        <label for="Salary Account">Salary Account:</label>
+        <input type="radio" id="Salary Account" name="Bank ACCOUNT" placeholder="304059****">
+    </fieldset>
+    <fieldset>
+        <legend>PREFERENCE</legend>
+        <label for="News letter">Subscribe To Newsletter:</label>
+        <input type="Checkbox" id="Newsletter" name="Newsletter"> <br><br>
+        <label for="Notification">Receive Notification:</label>
+        <input type="Checkbox" id="Notification" name="Newsletter">
+    </fieldset>
+    <fieldset>
+        <legend>CHOOSE YOUR LOCAL GOVERNMENT AREA</legend>
+        <label for="Local Government">Local Government:</label>
+        <select name="Local Government" id="Local Government">
+            <option value="Ajeromi Ifelodun">Ajeromi Ifelodun</option>
+            <option value="Bariga">Bariga</option>
+            <option value="Isheri">Isheri</option>
+            <option value="Ketu">Ketu</option>
+            <option value="Lagos Island">Lagos Island</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>SUGGESTION/ADDITIONAL INFO.</legend>
+        <label for="Comments">Comments:</label> <br> 
+        <textarea name="Comments" id="Comments" cols="30" rows="7" placeholder=" Leave Your Comments Here"></textarea>
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="submit">
+    </fieldset>    
+    </form>
+</body>
+</html>
